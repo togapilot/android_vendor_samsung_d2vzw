@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
         vendor/samsung/d2vzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
         vendor/samsung/d2vzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+        vendor/samsung/d2vzw/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+        vendor/samsung/d2vzw/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+        vendor/samsung/d2vzw/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+        vendor/samsung/d2vzw/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
         vendor/samsung/d2vzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
         vendor/samsung/d2vzw/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/d2vzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
