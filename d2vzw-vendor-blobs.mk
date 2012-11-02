@@ -29,10 +29,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/bin/usbhub:system/bin/usbhub \
         vendor/samsung/d2vzw/proprietary/bin/usbhub_init:system/bin/usbhub_init \
         vendor/samsung/d2vzw/proprietary/bin/thermald:system/bin/thermald \
-        vendor/samsung/d2vzw/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-        vendor/samsung/d2vzw/proprietary/etc/thermald.conf_F:system/etc/thermald.conf_F \
-        vendor/samsung/d2vzw/proprietary/etc/thermald.conf_N:system/etc/thermald.conf_N \
-        vendor/samsung/d2vzw/proprietary/etc/thermald.conf_S:system/etc/thermald.conf_S \
+        vendor/samsung/d2vzw/proprietary/etc/thermald-8064.conf:system/etc/thermald-8064.conf \
+        vendor/samsung/d2vzw/proprietary/etc/thermald-8930.conf:system/etc/thermald-8930.conf \
+        vendor/samsung/d2vzw/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
         vendor/samsung/d2vzw/proprietary/bin/bcm4334.hcd:system/bin/bcm4334.hcd \
         vendor/samsung/d2vzw/proprietary/bin/bcm4334_murata.hcd:system/bin/bcm4334_murata.hcd \
         vendor/samsung/d2vzw/proprietary/bin/bcm4334_semco.hcd:system/bin/bcm4334_semco.hcd \
@@ -42,7 +41,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
         vendor/samsung/d2vzw/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/d2vzw/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-        vendor/samsung/d2vzw/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+        vendor/samsung/d2vzw/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
         vendor/samsung/d2vzw/proprietary/media/bootanimation.zip:system/media/bootanimation.zip \
         vendor/samsung/d2vzw/proprietary/media/bamf_audio.mp3:system/media/bamf_audio.mp3 \
         vendor/samsung/d2vzw/proprietary/xbin/busybox:system/xbin/busybox \
@@ -86,6 +85,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
         vendor/samsung/d2vzw/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
         vendor/samsung/d2vzw/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+        vendor/samsung/d2vzw/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
         vendor/samsung/d2vzw/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
         vendor/samsung/d2vzw/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
         vendor/samsung/d2vzw/proprietary/bin/quipc_main:system/bin/quipc_main \
@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/bin/orientationd:system/bin/orientationd \
         vendor/samsung/d2vzw/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/d2vzw/proprietary/lib/libakmd.so:system/lib/libakmd.so \
-        vendor/samsung/d2vzw/proprietary/lib/libAKM.so:system/lib/libAKM.so \
         vendor/samsung/d2vzw/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
         vendor/samsung/d2vzw/proprietary/lib/libmllite.so:system/lib/libmllite.so \
         vendor/samsung/d2vzw/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
@@ -120,7 +119,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
         vendor/samsung/d2vzw/proprietary/lib/libgemini.so:system/lib/libgemini.so \
         vendor/samsung/d2vzw/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-        vendor/samsung/d2vzw/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
         vendor/samsung/d2vzw/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
         vendor/samsung/d2vzw/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
         vendor/samsung/d2vzw/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
@@ -145,13 +143,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libdiag.so:system/lib/libdiag.so \
         vendor/samsung/d2vzw/proprietary/bin/macloader:system/bin/macloader \
         vendor/samsung/d2vzw/proprietary/bin/brcm_poke_helper:system/bin/brcm_poke_helper \
-        vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_apsta.bin_b1:system/etc/wifi/bcmdhd_apsta.bin_b1 \
         vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
-        vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_p2p.bin_b1:system/etc/wifi/bcmdhd_p2p.bin_b1 \
         vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
-        vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_sta.bin_b1:system/etc/wifi/bcmdhd_sta.bin_b1 \
         vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
-        vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_mfg.bin_b1:system/etc/wifi/bcmdhd_mfg.bin_b1 \
         vendor/samsung/d2vzw/proprietary/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
         vendor/samsung/d2vzw/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
         vendor/samsung/d2vzw/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
