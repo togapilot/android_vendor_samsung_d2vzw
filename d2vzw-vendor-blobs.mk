@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
         vendor/samsung/d2vzw/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
         vendor/samsung/d2vzw/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+        vendor/samsung/d2vzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
         vendor/samsung/d2vzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
         vendor/samsung/d2vzw/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/d2vzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
@@ -157,7 +158,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
         vendor/samsung/d2vzw/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
         vendor/samsung/d2vzw/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-        vendor/samsung/d2vzw/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
         vendor/samsung/d2vzw/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
         vendor/samsung/d2vzw/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
         vendor/samsung/d2vzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
