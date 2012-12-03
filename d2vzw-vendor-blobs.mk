@@ -49,12 +49,14 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
         vendor/samsung/d2vzw/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
         vendor/samsung/d2vzw/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+        vendor/samsung/d2vzw/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
         vendor/samsung/d2vzw/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
         vendor/samsung/d2vzw/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
         vendor/samsung/d2vzw/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
         vendor/samsung/d2vzw/proprietary/lib/libgsl.so:system/lib/libgsl.so \
         vendor/samsung/d2vzw/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
         vendor/samsung/d2vzw/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+        vendor/samsung/d2vzw/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
         vendor/samsung/d2vzw/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
         vendor/samsung/d2vzw/proprietary/bin/netmgrd:system/bin/netmgrd \
         vendor/samsung/d2vzw/proprietary/bin/sec-ril:system/bin/sec-ril \
