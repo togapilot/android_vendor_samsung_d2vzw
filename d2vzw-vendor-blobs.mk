@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libatparser.so:system/lib/libatparser.so \
         vendor/samsung/d2vzw/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
         vendor/samsung/d2vzw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-        vendor/samsung/d2vzw/proprietary/lib/libcurl.so:system/lib/libcurl.so \
         vendor/samsung/d2vzw/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
         vendor/samsung/d2vzw/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
         vendor/samsung/d2vzw/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
