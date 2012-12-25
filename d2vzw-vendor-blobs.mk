@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
         vendor/samsung/d2vzw/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
         vendor/samsung/d2vzw/proprietary/media/bootanimation.zip:system/media/bootanimation.zip \
-        vendor/samsung/d2vzw/proprietary/media/bamf_audio.mp3:system/media/bamf_audio.mp3 \
         vendor/samsung/d2vzw/proprietary/media/LMprec_508.emd:system/media/LMprec_508.emd \
         vendor/samsung/d2vzw/proprietary/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
         vendor/samsung/d2vzw/proprietary/xbin/busybox:system/xbin/busybox \
