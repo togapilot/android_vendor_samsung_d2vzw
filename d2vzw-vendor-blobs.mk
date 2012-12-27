@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2vzw/proprietary/cameradata/SlimISP_ZC.bin:system/cameradata/SlimISP_ZC.bin \
         vendor/samsung/d2vzw/proprietary/cameradata/SlimISP_ZD.bin:system/cameradata/SlimISP_ZD.bin \
         vendor/samsung/d2vzw/proprietary/cameradata/SlimISP_ZE.bin:system/cameradata/SlimISP_ZE.bin \
+        vendor/samsung/d2vzw/proprietary/cameradata/SlimISP_GH.bin:system/cameradata/SlimISP_GH.bin \
         vendor/samsung/d2vzw/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/d2vzw/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
         vendor/samsung/d2vzw/proprietary/lib/libdiag.so:system/lib/libdiag.so \
